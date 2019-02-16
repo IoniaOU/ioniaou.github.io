@@ -34,11 +34,30 @@
 </head>
 
 <body>
-	<div class="container mt-2">
+	<div id="Home" class="container mt-2">
 		<div class="container">
-			<div class="row p-2">
-				<img src="images/logo.png" class="img-fluid" alt="Ionia Logo" style="max-height:100px;">
-			</div>
+			<nav class="navbar navbar-expand-lg navbar-light p-2">
+				<a class="navbar-brand" href="#Home"><img src="images/logo.png" class="img-fluid" alt="Ionia Logo" style="max-height:75px;"></a>
+
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav mr-auto">
+						<li class="nav-item active p-1">
+							<a class="nav-link" href="#OurProducts">Our Products</a>
+						</li>
+						<li class="nav-item active p-1">
+							<a class="nav-link" href="#GetInvolved">Get Involved</a>
+						</li>
+					</ul>
+					<span class="navbar-text p-1">
+						Ionia OÜ
+					</span>
+				</div>
+			</nav>
+
 			<hr class="my-2">
 			<div class="card-deck">
 				<div class="card bg-light border-dark m-2" style="min-width:250px;">
@@ -69,7 +88,7 @@
 					</div>
 				</div>
 			</div>
-			<h1 class="pt-5">Our Products</h1>
+			<h1 id="OurProducts" class="pt-5">Our Products</h1>
 			<hr class="my-2">
 			<div class="card-deck">
 				<div class="card bg-light border-dark m-2" style="min-width:250px;">
@@ -98,7 +117,7 @@
 					</div>
 				</div>
 			</div>
-			<h1 class="pt-5">Get Involved</h1>
+			<h1 id="GetInvolved" class="pt-5">Get Involved</h1>
 			<hr class="my-2">
 			<div class="card-deck">
 				<div class="card bg-light border-dark m-2" style="min-width:250px;">
