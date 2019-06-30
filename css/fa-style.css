@@ -1,27 +1,12 @@
-a.fa-style:link {
-	text-decoration-line: none;
-	color: black;
-}
-
-a.fa-style:visited {
-	text-decoration-line: none;
-	color: black;
-}
-
-a.fa-style:hover {
-	text-decoration-line: none;
-}
-
-
-.fa-facebook:hover {
+.fa-facebook {
 	color: #3C5A99;
 }
 
-.fa-twitter:hover {
+.fa-twitter {
 	color: #38A1F3;
 }
 
-.fa-instagram:hover {
+.fa-instagram {
 	color: transparent;
 	background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
 	background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
@@ -29,26 +14,30 @@ a.fa-style:hover {
 	-webkit-background-clip: text;
 }
 
-.fa-youtube:hover {
+.fa-youtube {
 	color: #E52D27;
 }
 
-.fa-linkedin:hover {
+.fa-linkedin {
 	color: #0077B5;
 }
 
-.fa-github:hover {
+.fa-github {
 	color: #211F1F;
 }
 
-.fa-reddit:hover {
+.fa-reddit {
 	color: #ff4500;
 }
 
-.fa-app-store:hover {
+.fa-app-store {
 	color: #007aff;
 }
 
-.fa-google-play:hover {
+.fa-google-play {
 	color: #a4c639;
+}
+
+.fa-angellist {
+	color: #000000;
 }
