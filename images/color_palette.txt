@@ -1,0 +1,10 @@
+Ancient Greece Color Palette
+ tette
+ 19 Favorites    0 CommentsLogin to add palette to your favorites.
+Colors in Palette
+Color	Hex	RGB
+#e0ddd5	(224,221,213)
+#283d70	(40,61,112)
+#2e3546	(46,53,70)
+#c6934b	(198,147,75)
+#703529	(112,53,41)
